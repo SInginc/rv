@@ -3,6 +3,7 @@
 <!-- badges: start -->
 [![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
 [![R-CMD-check](https://github.com/SInginc/rv/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/SInginc/rv/actions/workflows/R-CMD-check.yaml)
+[![Codecov test coverage](https://codecov.io/gh/SInginc/rv/graph/badge.svg)](https://app.codecov.io/gh/SInginc/rv)
 <!-- badges: end -->
 
 **`rv`** is a productivity-focused R package manager inspired by Python's `uv`. It provides a single interface to manage project dependencies, using the `DESCRIPTION` file as your **intent** (what you want) and `renv.lock` as your **state** (what you have).

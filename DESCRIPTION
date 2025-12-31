@@ -17,6 +17,7 @@ Imports:
     desc,
     renv
 Suggests:
+    covr (>= 3.6.5),
     devtools (>= 2.4.6),
     jsonlite (>= 2.0.0),
     languageserver (>= 0.3.16),

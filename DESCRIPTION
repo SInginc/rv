@@ -1,0 +1,30 @@
+Package: rv
+Title: Fast, Unified Project Management for R
+Version: 0.0.1
+Authors@R:
+    person(given = "Jack", family = "Liu", role = c("aut", "cre"))
+Description: A productivity-focused R package manager inspired by Python's 'uv'.
+    Provides a single interface to manage project dependencies using the
+    'DESCRIPTION' file as intent and 'renv.lock' as state. Automates the
+    complexity of keeping manifests, installed packages, and lockfiles in sync
+    with simple commands like init(), add(), remove(), and sync().
+URL: https://github.com/SInginc/rv
+BugReports: https://github.com/SInginc/rv/issues
+Depends:
+    R (>= 4.0)
+Imports:
+    callr,
+    desc,
+    renv
+Suggests:
+    devtools (>= 2.4.6),
+    jsonlite (>= 2.0.0),
+    languageserver (>= 0.3.16),
+    pak (>= 0.9.1),
+    pkgload (>= 1.4.1),
+    testthat (>= 3.0.0),
+    usethis (>= 3.2.1)
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3

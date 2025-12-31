@@ -1,0 +1,33 @@
+repos:
+  # Standard pre-commit hooks
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v6.0.0
+    hooks:
+      - id: end-of-file-fixer
+        name: Fix end of files
+      - id: trailing-whitespace
+        name: Trim trailing whitespace
+      - id: check-yaml
+        name: Check YAML syntax
+      - id: check-json
+        name: Check JSON syntax
+      - id: check-added-large-files
+        name: Check for large files
+        args: ['--maxkb=500']
+      - id: check-merge-conflict
+        name: Check for merge conflicts
+      - id: mixed-line-ending
+        name: Fix mixed line endings
+        args: ['--fix=lf']
+      - id: detect-private-key
+        name: Detect private keys
+
+  # Local hooks
+  - repo: local
+    hooks:
+      - id: air-format
+        name: Format R files with air
+        entry: air format
+        language: system
+        files: ^(R|tests)/.*\.R$
+        types: [file]

@@ -4,12 +4,20 @@
 \name{rv-package}
 \alias{rv}
 \alias{rv-package}
-\title{rv: What the Package Does (One Line, Title Case)}
+\title{rv: Fast, Unified Project Management for R}
 \description{
-What the package does (one paragraph).
+A productivity-focused R package manager inspired by Python's 'uv'. Provides a single interface to manage project dependencies using the 'DESCRIPTION' file as intent and 'renv.lock' as state. Automates the complexity of keeping manifests, installed packages, and lockfiles in sync with simple commands like init(), add(), remove(), and sync().
+}
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://github.com/SInginc/rv}
+  \item Report bugs at \url{https://github.com/SInginc/rv/issues}
+}
+
 }
 \author{
-\strong{Maintainer}: Xiaochang Liu \email{liuxiaochang1996@gmail.com}
+\strong{Maintainer}: Jack Liu \email{xiaochang.jack.liu@gmail.com}
 
 }
 \keyword{internal}

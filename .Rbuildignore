@@ -2,5 +2,6 @@
 ^renv\.lock$
 ^LICENSE\.md$
 ^design$
-^air.toml$
+^air\.toml$
 ^\.github$
+^\.pre-commit-config\.yaml$
